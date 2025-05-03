@@ -36,10 +36,17 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 # install prisma
-* npm install prisma --save-dev
-* npm install @prisma/client
+
+- npm install prisma --save-dev
+- npm install @prisma/client
 
 # initialize prisma
-* npx prisma init --datasource-provider postgresql
 
+- npx prisma init --datasource-provider postgresql
 
+# Neon for postSql
+
+- https://console.neon.tech/app/projects
+
+# Running Prisma Migrations
+* npx prisma migrate dev --name model blog
