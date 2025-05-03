@@ -11,11 +11,10 @@ import {
 const Header = () => {
   const { user } = useUser();
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center p-3">
       {user && (
         <h1 className="text-3xl font-bold">
-          {user?.firstName}
-          {`'`}s Notation
+          {user?.firstName}'s <span className="text-gray-600">BLOG</span>
         </h1>
       )}
       <div className="flex items-center gap-x-5">
