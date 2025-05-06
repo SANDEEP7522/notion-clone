@@ -8,6 +8,7 @@ import {
   useUser,
 } from "@clerk/nextjs";
 import { ModeToggle } from "./sidebarComponentes/ModeToggle";
+import SearchInput from "./sidebarComponentes/SearchInput";
 
 const Header = () => {
   const { user } = useUser();
@@ -19,6 +20,7 @@ const Header = () => {
         </h1>
       )}
       <div className="flex items-center gap-x-5">
+        <SearchInput />
         <ModeToggle />
         <SignedOut>
           <SignInButton />

@@ -1,10 +1,9 @@
-import { Button } from "@/components/ui/button";
+import HeroSection from "@/components/newcomponetes/sidebarComponentes/HeroSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-      Sandeep Sahu - Full Stack Developer
-      <Button>Click me</Button>
+    <main className="main-layout">
+      <HeroSection />
     </main>
   );
 }
