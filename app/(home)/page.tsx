@@ -1,9 +1,9 @@
-import HeroSection from "@/components/newcomponetes/sidebarComponentes/HeroSection";
+import Home from "@/components/newcomponetes/home/home";
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className="main-layout">
-      <HeroSection />
-    </main>
+    <div>
+      <Home />
+    </div>
   );
 }
